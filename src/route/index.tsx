@@ -1,3 +1,4 @@
+import Api from "@/components/Api";
 import App from "../App";
 import About from "../components/About";
 import TutorialReducer from "../components/TutorialReducer";
@@ -20,6 +21,10 @@ const routes = [
         element: <h3>You</h3>,
       },
     ],
+  },
+  {
+    path: "/api",
+    element: <Api />,
   },
   {
     path: "/tutorial",
